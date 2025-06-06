@@ -32,4 +32,4 @@ jobs:
           path: ./artifacts
       - name: Printing Contents
         run: |
-          cat /artifacts/hello.txt
+          cat ./artifacts/hello.txt
